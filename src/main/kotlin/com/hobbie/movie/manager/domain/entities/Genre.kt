@@ -1,0 +1,28 @@
+package com.hobbie.movie.manager.domain.entities
+
+enum class Genre {
+    Action,
+    Adventure,
+    Animation,
+    Biography,
+    Comedy,
+    Crime,
+    Documentary,
+    Drama,
+    Family,
+    Fantasy,
+    FilmNoir,
+    History,
+    Horror,
+    Music,
+    Musical,
+    Mystery,
+    Romance,
+    SciFi,
+    ShortFilm,
+    Sport,
+    Superhero,
+    Thriller,
+    War,
+    Western,
+}
