@@ -59,7 +59,9 @@ internal class MovieControllerTest {
             registry.add("spring.data.mongodb.host", dbcontainer::getHost)
             registry.add("spring.data.mongodb.port", dbcontainer::getFirstMappedPort)
             registry.add("omdb.url", servicecontainer::getEndpoint)
+            registry.add("omdb.apiKey", Supplier { "123456" })
             registry.add("nats.url", Supplier { "nats://${natsStreaming.getHost()}:${natsStreaming.getFirstMappedPort()}" })
+            registry.add("nats.cluster", Supplier { "test-cluster" })
         }
     }
 

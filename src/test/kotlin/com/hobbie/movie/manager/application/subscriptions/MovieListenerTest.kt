@@ -1,5 +1,6 @@
 package com.hobbie.movie.manager.application.subscriptions
 
+import com.hobbie.movie.manager.application.controllers.MovieControllerTest
 import io.nats.streaming.MessageHandler
 import io.nats.streaming.Options
 import io.nats.streaming.StreamingConnectionFactory
@@ -66,6 +67,8 @@ internal class MovieListenerTest {
             registry.add("spring.data.mongodb.port", dbcontainer::getFirstMappedPort)
             registry.add("omdb.url", servicecontainer::getEndpoint)
             registry.add("nats.url", Supplier { "nats://${natsStreaming.getHost()}:${natsStreaming.getFirstMappedPort()}" })
+            registry.add("omdb.apiKey", Supplier { "123456" })
+            registry.add("nats.cluster", Supplier { "test-cluster" })
         }
     }
 
