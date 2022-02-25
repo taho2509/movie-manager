@@ -1,1 +1,1 @@
-rootProject.name = "manager"
+rootProject.name = "movie-manager"
