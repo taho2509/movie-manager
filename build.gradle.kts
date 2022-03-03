@@ -29,7 +29,7 @@ dependencies {
 	implementation("io.nats:jnats:2.11.0")
 	implementation ("io.nats:java-nats-streaming:2.2.3")
 	implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
-	implementation("org.slf4j:slf4j-api:1.7.30")
+	implementation("org.slf4j:slf4j-api:1.7.36")
 	implementation("ch.qos.logback:logback-core:1.2.6")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("io.mockk:mockk:1.12.2")
