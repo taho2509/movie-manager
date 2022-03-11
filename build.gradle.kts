@@ -24,7 +24,7 @@ dependencies {
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-	implementation("io.github.serpro69:kotlin-faker:1.10.0-SNAPSHOT")
+	implementation("io.github.serpro69:kotlin-faker:1.10.0")
 	implementation ("com.google.code.gson:gson:2.9.0")
 	implementation("io.nats:jnats:2.13.2")
 	implementation ("io.nats:java-nats-streaming:2.2.3")
