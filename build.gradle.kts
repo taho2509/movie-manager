@@ -37,7 +37,7 @@ dependencies {
 	testImplementation ("org.testcontainers:mongodb:1.16.3")
 	testImplementation("org.testcontainers:junit-jupiter:1.16.3")
 	testImplementation ("org.testcontainers:mockserver:1.16.3")
-	implementation("org.mock-server:mockserver-client-java:5.12.0")
+	implementation("org.mock-server:mockserver-client-java:5.13.0")
 	kapt("org.springframework.boot:spring-boot-configuration-processor")
 }
 
