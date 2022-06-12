@@ -51,7 +51,7 @@ internal class MovieControllerTest {
         }
 
         @Container
-        val servicecontainer = MockServerContainer(DockerImageName.parse("mockserver/mockserver:mockserver-5.12.0"))
+        val servicecontainer = MockServerContainer(DockerImageName.parse("mockserver/mockserver:mockserver-5.13.2"))
 
         @JvmStatic
         @DynamicPropertySource
