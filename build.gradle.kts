@@ -34,7 +34,7 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("io.mockk:mockk:1.12.3")
 	testImplementation ("org.testcontainers:testcontainers:1.17.2")
-	testImplementation ("org.testcontainers:mongodb:1.16.3")
+	testImplementation ("org.testcontainers:mongodb:1.17.2")
 	testImplementation("org.testcontainers:junit-jupiter:1.17.2")
 	testImplementation ("org.testcontainers:mockserver:1.16.3")
 	implementation("org.mock-server:mockserver-client-java:5.13.2")
