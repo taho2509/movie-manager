@@ -33,7 +33,7 @@ dependencies {
 	implementation("ch.qos.logback:logback-core:1.2.11")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("io.mockk:mockk:1.12.4")
-	testImplementation ("org.testcontainers:testcontainers:1.17.2")
+	testImplementation ("org.testcontainers:testcontainers:1.17.3")
 	testImplementation ("org.testcontainers:mongodb:1.17.3")
 	testImplementation("org.testcontainers:junit-jupiter:1.17.2")
 	testImplementation ("org.testcontainers:mockserver:1.17.2")
