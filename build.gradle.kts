@@ -26,7 +26,7 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("io.github.serpro69:kotlin-faker:1.11.0")
 	implementation ("com.google.code.gson:gson:2.9.0")
-	implementation("io.nats:jnats:2.15.3")
+	implementation("io.nats:jnats:2.15.5")
 	implementation ("io.nats:java-nats-streaming:2.2.3")
 	implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
 	implementation("org.slf4j:slf4j-api:1.7.36")
