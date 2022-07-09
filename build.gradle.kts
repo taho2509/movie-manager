@@ -2,7 +2,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
 	id("org.springframework.boot") version "2.7.1"
-	id("io.spring.dependency-management") version "1.0.11.RELEASE"
+	id("io.spring.dependency-management") version "1.0.12.RELEASE"
 	kotlin("jvm") version "1.7.0"
 	kotlin("plugin.spring") version "1.7.0"
 	kotlin("kapt") version "1.7.0"
@@ -26,7 +26,7 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("io.github.serpro69:kotlin-faker:1.11.0")
 	implementation ("com.google.code.gson:gson:2.9.0")
-	implementation("io.nats:jnats:2.15.3")
+	implementation("io.nats:jnats:2.15.5")
 	implementation ("io.nats:java-nats-streaming:2.2.3")
 	implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
 	implementation("org.slf4j:slf4j-api:1.7.36")
