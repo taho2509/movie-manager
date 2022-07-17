@@ -5,7 +5,7 @@ plugins {
 	id("io.spring.dependency-management") version "1.0.12.RELEASE"
 	kotlin("jvm") version "1.7.10"
 	kotlin("plugin.spring") version "1.7.10"
-	kotlin("kapt") version "1.7.0"
+	kotlin("kapt") version "1.7.10"
 }
 
 group = "com.hobbie.movie"
@@ -35,7 +35,7 @@ dependencies {
 	testImplementation("io.mockk:mockk:1.12.4")
 	testImplementation ("org.testcontainers:testcontainers:1.17.3")
 	testImplementation ("org.testcontainers:mongodb:1.17.3")
-	testImplementation("org.testcontainers:junit-jupiter:1.17.2")
+	testImplementation("org.testcontainers:junit-jupiter:1.17.3")
 	testImplementation ("org.testcontainers:mockserver:1.17.3")
 	implementation("org.mock-server:mockserver-client-java:5.13.2")
 	kapt("org.springframework.boot:spring-boot-configuration-processor")
