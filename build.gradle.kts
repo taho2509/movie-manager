@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-	id("org.springframework.boot") version "2.7.2"
+	id("org.springframework.boot") version "2.7.3"
 	id("io.spring.dependency-management") version "1.0.13.RELEASE"
 	kotlin("jvm") version "1.7.10"
 	kotlin("plugin.spring") version "1.7.10"
@@ -37,7 +37,7 @@ dependencies {
 	testImplementation ("org.testcontainers:mongodb:1.17.3")
 	testImplementation("org.testcontainers:junit-jupiter:1.17.3")
 	testImplementation ("org.testcontainers:mockserver:1.17.3")
-	implementation("org.mock-server:mockserver-client-java:5.13.2")
+	implementation("org.mock-server:mockserver-client-java:5.14.0")
 	kapt("org.springframework.boot:spring-boot-configuration-processor")
 }
 
